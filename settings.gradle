@@ -1,1 +1,2 @@
-include ':app','ArieljinLibrary'
+include ':app',':ArieljinLibrary'
+project(':ArieljinLibrary').projectDir = new File(settingsDir,'../../Library/ArieljinLibrary')
